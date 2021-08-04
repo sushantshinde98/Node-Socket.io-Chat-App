@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node-Socket-Chat-App</title>
+    
+</head>
+<body>
+    <audio src="sms_tone.mp3" muted>
+      </audio>
+<nav>
+    <img class="logo" src="logo.jpg" alt="Logo">
+    <h2 id="title">Aimless Secret Chat</h2>
+</nav>
+<div class="container">
+<!-- sample messages -->
+    <!-- <div class="message-left">
+        <span class="user-name">xyz:</span>
+        <span class="msg-cell">Hello !!<em class="curr-time"></em></span>
+    </div>
+    <div class="message-right">
+        <span class="user-name">Sushant:</span><br>
+        <span class="msg-cell">Hello !!<em class="curr-time"></em></span> 
+    </div> -->
+    
+    
+</div> 
+<div class="send">
+    <form id='Form-Msg-Sender'>
+        <input type="text" name="msg" id="msg" placeholder="type your message">
+        <button id="btn" type="submit">Send</button>
+    </form>
+</div>
+<script defer src="/socket.io/socket.io.js"></script>
+<script defer src="client.js">
+</script>
+
+</body>
+</html>
